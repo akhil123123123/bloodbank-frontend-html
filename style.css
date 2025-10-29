@@ -1,3 +1,14 @@
-body { font-family: Arial; padding: 20px; }
-input { margin: 5px; padding: 8px; width: 200px; }
-button { padding: 8px 12px; }
+*{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;}
+body{margin:0;background:#f6f8fb;color:#102a43}
+.site-header{background:linear-gradient(90deg,#d32f2f,#9c27b0);color:white;padding:2rem;text-align:center}
+.site-header h1{margin:0;font-size:clamp(1.5rem,3vw,2.25rem)}
+.container{max-width:1000px;margin:1.5rem auto;padding:0 1rem;display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:800px){.container{grid-template-columns:1fr 1fr}}
+.card{background:white;padding:1rem;border-radius:12px;box-shadow:0 6px 18px rgba(16,42,67,0.08)}
+label{display:block;margin:0.5rem 0;font-size:0.95rem}
+input,select,button{width:100%;padding:0.6rem;border-radius:8px;border:1px solid #d7e0ea;font-size:0.95rem}
+button{background:#d32f2f;color:#fff;border:0;cursor:pointer;margin-top:0.5rem}
+.results{margin-top:0.5rem}
+.result-item{padding:0.6rem;border:1px dashed #e2e8f0;border-radius:8px;margin-bottom:0.5rem}
+.msg{margin-top:0.5rem;padding:0.6rem;border-radius:8px;background:#eef7ee;color:#1b5e20}
+.site-footer{text-align:center;padding:1rem;color:#6b7280}
